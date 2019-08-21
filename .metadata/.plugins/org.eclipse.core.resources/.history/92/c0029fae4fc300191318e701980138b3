@@ -1,0 +1,5 @@
+package com.sgSpringBoot.demo;
+
+public class BootController {
+
+}

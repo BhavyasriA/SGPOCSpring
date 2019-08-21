@@ -1,0 +1,12 @@
+package com.sgSpringBoot.demo;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class BootController {
+
+	@RequestMapping("/Message")
+	public String getMessage() {
+		return "Hello Spring Boot";
+	}
+}
